@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "test" {
   name     = "${var.prefix}-workshop"
-  location = "US East"
+  location = "East US"
 }
 
 module "network" {
