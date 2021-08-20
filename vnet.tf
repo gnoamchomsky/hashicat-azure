@@ -1,7 +1,4 @@
-resource "azurerm_resource_group" "test" {
-  name     = "${var.prefix}-workshop"
-  location = "East US"
-}
+
 
 module "network" {
   source              = "Azure/network/azurerm"
