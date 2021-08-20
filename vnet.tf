@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "myresourcegroup" {
+resource "azurerm_resource_group" "test" {
   name     = "${var.prefix}-workshop"
   location = "US East"
 }
